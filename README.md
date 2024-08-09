@@ -1,5 +1,11 @@
 # Decentralized Data Marketplace: Powering Data-Driven Decisions
 
+## Table of Contents
+
+- [Decentralized Data Advantages](#decentralized-data-advantages)
+- [Use Cases Across Industries](#use-cases-across-industries)
+- [Decentralized Data Marketplace Developments](#decentralized-data-marketplace-developments)
+
 ## Decentralized Data Advantages
 
 Decentralized data marketplaces offer a range of compelling benefits that directly impact a company's bottom line. Let's examine some of the key advantages these platforms provide:
@@ -34,7 +40,7 @@ Decentralized data marketplaces offer a range of compelling benefits that direct
 
 - **Strategic Decision-Making:** Make data-driven decisions with confidence, armed with the most relevant and reliable information derived from decentralized marketplaces. This enhances overall business strategy and optimizes outcomes.
 
-  ## Use Cases Across Industries
+## Use Cases Across Industries
 
 Decentralized data marketplaces offer more than just technological advancements. They deliver practical business outcomes including enhanced efficiency, compliance, and innovation. Let's delve into real-world use cases and their measurable impact across industries.
 
@@ -77,15 +83,6 @@ Decentralized data marketplaces offer more than just technological advancements.
 - **Incentivized Participation:** Respondents can be directly compensated for their data contributions, increasing engagement and the quality of insights.
 
 - **Data Validation:** Transparency and data lineage tracking within decentralized marketplaces help researchers ensure the integrity and reliability of market research data.
-
-## Pioneering Projects
-
-- **Ocean Protocol:** Provides tools for data discovery, access management, and monetization, enabling businesses to build their own data marketplaces.
-
-- **Streamr:** Focuses on real-time data streams relevant to logistics, finance, and other sectors dependent on timely data insights.
-
-- **IOTA Data Marketplace:** Designed for secure data exchange between IoT devices, supporting applications in smart cities and predictive maintenance.
-
 
 ## Decentralized Data Marketplace Developments
 
