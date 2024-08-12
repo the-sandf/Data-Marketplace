@@ -38,3 +38,17 @@ Logs important actions, including:
 - **buyDataAsset:** Allows a buyer to purchase the asset by sending the required Ether.
 - **getDataAsset:** Retrieves the details of a data asset.
 - **removeFromSale:** Allows the owner to remove their data asset from the marketplace.
+
+## Usage
+
+### Data Creation
+
+A user creates a data asset by providing a name, description, and data hash. The owner is automatically set to the user who creates the asset.
+
+### Selling Data
+
+The owner can set a price and put the data asset up for sale.
+
+### Buying Data
+
+Any user can buy the data asset by sending the required Ether, which is transferred to the original owner.
