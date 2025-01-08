@@ -14,7 +14,7 @@ contract DataMarketplace {
     }
 
     // Mapping of data assets by their ID
-    mapping(uint256 => DataAsset) public dataAssets;
+    mapping(uint256 => DataAsset) private  dataAssets;
     uint256 public assetCount;
 
     // Events
@@ -69,9 +69,30 @@ contract DataMarketplace {
     }
 
     // Retrieve asset data
-    function getDataAsset(uint256 assetId) public view returns (string memory, string memory, address, uint256, string memory, bool) {
+    function getDataAsset(uint256 assetId)
+        public
+        view
+        returns (
+            string memory,
+            string memory,
+            address,
+            uint256,
+            bool
+        )
+    {
         DataAsset memory asset = dataAssets[assetId];
-        return (asset.name, asset.description, asset.owner, asset.price, asset.dataHash, asset.isForSale);
+        return (
+            asset.name,
+            asset.description,
+            asset.owner,
+            asset.price,
+            asset.isForSale
+        );
+    }
+
+    function getDataHash(uint256 assetId) public view returns (string memory) {
+        require(dataAssets[assetId].owner == msg.sender, "Not the asset owner");
+        return dataAssets[assetId].dataHash;
     }
 
     // Remove a data asset from sale
