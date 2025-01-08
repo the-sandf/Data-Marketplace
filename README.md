@@ -1,3 +1,12 @@
+## ⚠️ Disclaimer
+
+This project is created for **educational purposes only** and is not intended for use in production environments. 
+
+- The code provided here may lack critical security features and proper auditing.
+- Use it solely as a learning tool to understand smart contract development and blockchain concepts.
+- The author(s) are not responsible for any misuse, damages, or losses incurred as a result of using this code.
+
+**Always consult with professional auditors and adhere to best practices before deploying any smart contract to a live network.**
 # Decentralized Data Marketplace: Powering Data-Driven Decisions
 
 ## Table of Contents
